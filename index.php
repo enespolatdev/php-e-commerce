@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Rapidcode E-Commerce</title>
+        <title>enespolat E-Commerce</title>
 
         <!-- Favicon -->
         <link rel="icon" href="img/favicon.png" type="image/png" />
@@ -103,7 +103,7 @@
             <div class="row it_works">
               <?php
 
-                        $link = mysqli_connect('db', 'rapidcode', 'rapidcode123', 'ecomdb');
+                        $link = mysqli_connect('db', 'enespolat', 'enespolat123', 'ecomdb');
 
                         if ($link) {
                         $res = mysqli_query($link, "select * from products;");
@@ -153,7 +153,7 @@
 
 
                 <div class="copy_right_area">
-                    <h4 class="copy_right">© Copyright 2019 Rapidcode Ecommerce | All Rights Reserved</h4>
+                    <h4 class="copy_right">© Copyright 2019 Enes Polat Ecommerce | All Rights Reserved</h4>
                 </div>
             </div>
         </footer>
